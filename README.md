@@ -91,9 +91,9 @@ Am going to continue learning design responsive layouts using both flex and grid
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Arthur Kateeba](https://www.your-site.com)
+- Frontend Mentor - [@ArthKate](https://www.frontendmentor.io/profile/yourusername)
+- Twitter - [@](https://www.twitter.com/arthkate)
 
 
 
