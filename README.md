@@ -91,7 +91,7 @@ Am going to continue learning design responsive layouts using both flex and grid
 
 ## Author
 
-- Website - [Arthur Kateeba](https://www.your-site.com)
+- Website - [Arthur Kateeba](https://fmc-stats-preview-card-component.vercel.app/)
 - Frontend Mentor - [@ArthKate](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@](https://www.twitter.com/arthkate)
 
