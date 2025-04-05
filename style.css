@@ -25,6 +25,13 @@
   --fs-stat-description: 14px;
 }
 
+/*helper classes*/
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+
 body {
   font-family: var(--ff-body);
   font-size: var(--fs-body);
@@ -33,7 +40,6 @@ body {
 }
 
 .wrapper {
-  display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100dvh;
@@ -46,19 +52,21 @@ body {
   height: 480px;
   border-radius: 0.5rem;
   overflow: hidden;
+  border: 2px solid white;
 }
 
 .right-col,
 .left-col {
   flex: 1 1 50%;
   min-width: 300px;
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
 }
 
 .right-col {
   position: relative;
   z-index: 0;
+  height: auto;
 }
 
 .img-container img {
@@ -80,11 +88,11 @@ body {
 
 .card-content {
   background-color: var(--clr-content);
-  display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: -0.5rem;
+  margin-top: 0.3rem;
   padding: 3rem;
+  height: 100%;
 }
 
 .card-content .title {
@@ -100,7 +108,7 @@ body {
   color: var(--clr-heading-span);
 }
 
-.card-content>*:not(:first-child) {
+.card-content > *:not(:first-child) {
   margin-top: 1rem;
 }
 
@@ -134,7 +142,11 @@ body {
   margin-bottom: 1rem;
 }
 
-@media (min-width: 375px) and (max-width: 1440px) {
+
+/*Responsive layout*/
+
+/* 
+@media (min-width: 375px) and (max-width: 768px) {
   :root {
     --fs-heading: 2rem;
     --fs-stat-heading: 1.5rem;
@@ -142,11 +154,11 @@ body {
   }
 
   .card-container {
-    flex-direction: column-reverse;
-    text-align: center;
     max-width: 90%;
     max-height: 100%;
     height: auto;
+    flex-direction: column-reverse;
+    text-align: center;
     margin: 4rem 0;
 
   }
@@ -184,7 +196,7 @@ body {
     padding-bottom: 0;
     margin-bottom: 0;
   }
-}
+} */
 
 
 
