@@ -100,7 +100,7 @@ body {
   font-family: var(--ff-body);
   font-size: var(--fs-heading);
   font-weight: var(--fw-heading);
-  margin-bottom: 0.5rem;
+  margin: 1rem 0;
   padding-top: 0.5rem;
 }
 
@@ -112,13 +112,14 @@ body {
   margin-top: 1rem;
 }
 
-.card-content p {
+.card-content .description {
   font-family: var(--ff-stat-description);
   font-size: var(--fs-stat-description);
   color: var(--clr-heading-description);
   line-height: 1.75;
-  margin-bottom: 2rem;
-  padding-top: 0.5rem;
+  margin: 2rem 0;
+  /* margin-bottom: 2rem; */
+  padding: 0.5rem 0;
   padding-right: 3.5rem;
 }
 
