@@ -16,12 +16,12 @@
   --clr-stat-description: hsla(0, 0%, 100%, 0.6);
 
   --fs-body: 15px;
-  --ff-body: "Inter", sans-serif;
-  --fs-heading: 2.5rem;
-  --fs-stat-heading: 1.5rem;
+  --ff-body: "Lexend Deca", sans-serif;
+  --fs-heading: 2rem;
+  --fs-stat-heading: 1.2rem;
   --fw-heading: 700;
   --fw-body: 400;
-  --ff-stat-description: "Lexend Deca", sans-serif;
+  --ff-stat-description: "Inter", sans-serif;
   --fs-stat-description: 14px;
 }
 
@@ -48,7 +48,7 @@ body {
 }
 
 .card-container {
-  border: 1px solid white;
+  /* border: 1px solid white; */
   max-width: 50rem;
   max-height: 25rem;
   width: 100%;
@@ -106,9 +106,40 @@ body {
 }
 
 .card-content > *:not(:first-child) {
-  /* margin-top: 1rem; */
+  margin-top: 1rem;
 }
 
+.card-content .description {
+  font-size: var(--fs-stat-description);
+  color: var(--clr-heading-description);
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  padding-right: 2rem;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.stats-container .stat {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  width: 100%;
+}
+
+.stats-container .stat .stat-description {
+  font-size: var(--fs-stat-description);
+  color: var(--clr-stat-description);
+  font-family: var(--ff-stat-description);
+  /* font-weight: var(--fw-body); */
+  text-transform: uppercase;
+  line-height: 1.5;
+}
 
 
 
