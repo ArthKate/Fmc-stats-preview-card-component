@@ -44,7 +44,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100dvh;
-  
+  height: auto;
 }
 
 .card-container {
@@ -153,49 +153,15 @@ body {
 
 
 
-
-
-
-
-
 /* Responsive layout */
 
-
-@media (max-width: 768px) {
+@media (min-width: 378px) and  (max-width: 768px) {
   .card-container {
     flex-direction: column-reverse;
-    width: 90%;
+    width:90%;
     height: auto;
-    padding: 4rem 0;
-    
   }
-
-  .left-col {
-    padding: 0.5rem;
-  }
-
-  .card-content {
-    padding: 2rem;
-  }
-
-  .card-content .title {
-    font-size: 2rem;
-  }
-
-  .card-content .description {
-    font-size: var(--fs-stat-description);
-    line-height: 1.5;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding-right: 0;
-  }
-
-  .stats-container {
-    flex-direction: column;
-    gap: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 0.5rem;
-  }
+  
 }
 
 
