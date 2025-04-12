@@ -87,7 +87,7 @@ body {
 /*left column and card-content*/
 .card-content {
   background-color: var(--clr-content);
-  padding: 2rem;
+  padding: 3rem;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -110,11 +110,11 @@ body {
 }
 
 .card-content .description {
-  font-family: var(--ff-description);
-  font-size: var(--fs-stat-description);
-  font-weight: var(--fw-heading);
+  font-family: "Lexa Deca", sans-serif;
+  font-size: var(--fs-body  );
   color: var(--clr-heading-description);
   line-height: 1.75;
+  letter-spacing: .3px;
   margin-bottom: 1rem;
   padding-right: 3rem;
 }
@@ -123,7 +123,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .stats-container .stat {
@@ -146,10 +146,9 @@ body {
   font-size: var(--fs-stat-description);
   color: var(--clr-heading-description);
   font-family: var(--ff-description);
-  font-weight: var(--fw-heading);
   text-transform: uppercase;
-  line-height: 1.5;
-  letter-spacing: .1rem;
+  line-height: 1.75;
+  letter-spacing: .3px;
 }
 
 
